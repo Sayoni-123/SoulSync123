@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Check</title>
+  <link rel="stylesheet" href="mood-check.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Check Your Mood</h1>
+    <form id="moodForm">
+      <div class="question" style="display: none;">
+        <p>1. How are you feeling today?</p>
+        <label><input type="radio" name="q1" value="happy"> Happy</label>
+        <label><input type="radio" name="q1" value="sad"> Sad</label>
+        <label><input type="radio" name="q1" value="neutral"> Neutral</label>
+        <label><input type="radio" name="q1" value="nervous"> Nervous</label>
+        <label><input type="radio" name="q1" value="angry"> Angry</label>
+      </div>
+      <div class="question" style="display: none;">
+        <p>2. Do you feel energetic?</p>
+        <label><input type="radio" name="q2" value="happy"> Yes</label>
+        <label><input type="radio" name="q2" value="sad"> No</label>
+      </div>
+      <div class="question" style="display: none;">
+        <p>3. Are you feeling calm?</p>
+        <label><input type="radio" name="q3" value="happy"> Yes</label>
+        <label><input type="radio" name="q3" value="nervous"> No</label>
+      </div>
+      <div class="question" style="display: none;">
+        <p>4. Do you feel frustrated?</p>
+        <label><input type="radio" name="q4" value="angry"> Yes</label>
+        <label><input type="radio" name="q4" value="neutral"> No</label>
+      </div>
+      <div class="question" style="display: none;">
+        <p>5. Do you feel like talking to someone?</p>
+        <label><input type="radio" name="q5" value="neutral"> Yes</label>
+        <label><input type="radio" name="q5" value="sad"> No</label>
+      </div>
+      <button type="button" id="submitBtn" style="display: none;">Submit</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="mood-check.js"></script>
+</body>
+</html>

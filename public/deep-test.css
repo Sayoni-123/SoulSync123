@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #99BC85, #d4eac7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.question-block {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.question {
+  display: none; /* Hide all questions by default */
+}
+
+.question.active {
+  display: block; /* Show only the active question */
+}
+
+.question p {
+  font-size: 1.5rem; /* Increased font size for questions */
+  color: #333;
+}
+
+label {
+  font-size: 1.2rem; /* Larger font size for answers */
+  color: #555;
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.2); /* Make the radio buttons larger */
+}
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 20px;
+}

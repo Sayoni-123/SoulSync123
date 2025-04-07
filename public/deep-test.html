@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deep Depression Detection</title>
+  <link rel="stylesheet" href="deep-test.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Deep Depression Detection</h1>
+    <form id="quizForm">
+      <div class="question" id="question1">
+        <p>How often do you feel sad or down?</p>
+        <label><input type="radio" name="q1" value="1" /> Rarely</label><br />
+        <label><input type="radio" name="q1" value="2" /> Sometimes</label><br />
+        <label><input type="radio" name="q1" value="3" /> Often</label><br />
+        <label><input type="radio" name="q1" value="4" /> Always</label><br />
+      </div>
+      <div class="question" id="question2">
+        <p>Do you have trouble sleeping?</p>
+        <label><input type="radio" name="q2" value="1" /> Rarely</label><br />
+        <label><input type="radio" name="q2" value="2" /> Sometimes</label><br />
+        <label><input type="radio" name="q2" value="3" /> Often</label><br />
+        <label><input type="radio" name="q2" value="4" /> Always</label><br />
+      </div>
+      <div class="question" id="question3">
+        <p>Do you feel a lack of energy?</p>
+        <label><input type="radio" name="q3" value="1" /> Rarely</label><br />
+        <label><input type="radio" name="q3" value="2" /> Sometimes</label><br />
+        <label><input type="radio" name="q3" value="3" /> Often</label><br />
+        <label><input type="radio" name="q3" value="4" /> Always</label><br />
+      </div>
+    </form>
+    <button id="nextBtn">Next</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="deep-test.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selfcare</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Soul Sync</h1>
+    <p>Choose an option below:</p>
+    <div class="card" onclick="navigateTo('meditation.html')">
+      <img src="pic/Screenshot 2025-04-06 015143.png" alt="Meditation">
+  
+    </div>
+    
+    <div class="card" onclick="navigateTo('yoga.html')">
+      <img src="pic/Screenshot 2025-04-06 020601.png" alt="Yoga">
+    
+    </div>
+    <div class="card" onclick="navigateTo('sounds.html')">
+      <img src="pic/Screenshot 2025-04-06 020912.png" alt="Sounds for Meditation">
+    </div>
+    <div class="card" onclick="navigateTo('deep-test.html')">
+      <img src="pic/Screenshot 2025-04-06 021307.png" alt="Deep Test">
+    </div>
+  </div>
+<footer>
+  <div class="navbar">
+    <a href="index.html"  class="active">Selfcare</a>
+    <a href="mood.html" >Mood</a>
+    <a href="soothy.html" >Soothy</a>
+    <a href="community.html">Community</a>
+  </div>
+</footer>
+
+  <script>
+    function navigateTo(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
