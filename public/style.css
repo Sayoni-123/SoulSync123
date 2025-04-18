@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(300deg,deepskyblue,#57ffb0,#ffac3a);
+  background: linear-gradient(300deg,#7DE6D6,#ab57ff,#E68F5F);
 
   color: #333; /* Text color for better contrast */
   display: flex;

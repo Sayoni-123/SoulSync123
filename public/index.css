@@ -22,6 +22,12 @@ body {
 }
 
 
+h1 {
+  font-size: 2rem;
+  color: #FFF5E1;
+  margin-bottom: 20px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 150px 150px;
@@ -85,4 +91,20 @@ body {
 
 .navbar a:hover {
   color: #000;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #00000000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar-name {
+  font-size: 1rem;
+  color: #33333300;
+  background-color: #00000000;
+  margin-top: 10px;
 }

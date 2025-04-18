@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(300deg,deepskyblue,#57ffb0,#ffac3a);
+  background: linear-gradient(300deg,#7DE6D6,#ab57ff,#E68F5F);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@ body {
 
 .container {
   text-align: center;
-  background-color: #ffffff00;
+  background-color: #ffffffa7;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -87,6 +87,21 @@ button:hover {
 
 .mood-link:hover {
   background-color: #45a049;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f100;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar-name {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
 }
 
 
